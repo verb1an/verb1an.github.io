@@ -106,7 +106,7 @@
 @media (max-width: 699px) {
   .header {
     padding: 10px 0;
-    height: auto;
+    height: 70px;
   }
   .header .nav {
     opacity: 0;
