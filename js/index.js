@@ -67,7 +67,7 @@ $(document).ready(function () {
 		e.preventDefault(false);
 		$('.nav .item').removeClass('current');
 		$(this).addClass('current');
-		window.scrollTo(0, $(`#${$(this).attr('href')}`).position().top - $('.header').height() - 40  );
+		window.scrollTo(0, $(`#${$(this).attr('href')}`).position().top - 100  );
 
 		$('.header').removeClass('active');
 		$('html').removeClass('hidden');
