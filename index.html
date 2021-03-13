@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mbox</title>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/font.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<a class="logo" href=""><img src="icons/logo.svg" alt=""></a>
+				<nav class="nav">
+					<a href="home" class="item current">Home</a>
+					<a href="tvshows" class="item">TV Shows</a>
+					<a href="movies" class="item">Movies</a>
+					<a href="genres" class="item">Series</a>
+				</nav>
+				<div class="user__score">
+					<a class="btn"><span class="i-search"></span></a>
+					<a class="btn new-notif" id="notification"><span class="i-notif"></span></a>
+					<a class="btn"><span class="i-user"></span></a>
+				</div>
+
+				<a class="bar"><span></span></a>
+			</div>
+		</div>
+	</header>
+
+	<main>
+	<div class="intro" id="home">
+		<div class="container">
+			<div class="intro__inner">
+				<h2 class="main__title">Night Watch</h2>
+				<div class="score">
+					<span class="year">2021</span>
+					<span class="agelimit">18+</span>
+					<span class="seasons">9 seasons</span>
+					<span class="rating"><span class="icon i-rating" style="color: #ffb800;"></span>8.8</span>
+				</div>
+				<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc quis et elit lacinia urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+
+				<div class="buttons">
+					<a href="" class="btn usebtn grd"><span class="icon i-watch"></span>Watch</a>
+					<a href="" class="btn usebtn white">More informations</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="tranding">
+		<section class="section" id="tvshows">
+			<div class="container">
+				<div class="section__inner">
+			    <a href="#" class="show-more">Trending TV Shows</a>
+			    <div class="content">
+				    <a class="item">
+					    <img src="images/tvshows/6.jpg" alt="">
+				    </a>
+				    <a class="item">
+					    <img src="images/tvshows/5.jpg" alt="">
+				    </a>
+				    <a class="item">
+					    <img src="images/tvshows/4.jpg" alt="">
+				    </a>
+				    <a class="item">
+					    <img src="images/tvshows/3.jpg" alt="">
+				    </a>
+				    <a class="item">
+					    <img src="images/tvshows/2.jpg" alt="">
+				    </a>
+				    <a class="item">
+					    <img src="images/tvshows/1.jpg" alt="">
+				    </a>
+				     <a class="item">
+					    <img src="images/tvshows/6.jpg" alt="">
+				    </a>
+				    <a class="item">
+					    <img src="images/tvshows/5.jpg" alt="">
+				    </a>
+				    <a class="item">
+					    <img src="images/tvshows/4.jpg" alt="">
+				    </a>
+				    <a class="item">
+					    <img src="images/tvshows/3.jpg" alt="">
+				    </a>
+				    <a class="item">
+					    <img src="images/tvshows/2.jpg" alt="">
+				    </a>
+				    <a class="item">
+					    <img src="images/tvshows/1.jpg" alt="">
+				    </a>
+			    </div>
+
+			    <div class="controlls">
+			    	<a class="btn left hidden"><span class="i-arrow"></span></a>
+			    	<a class="btn right"><span class="i-arrow"></span></a>
+			    </div>
+			    </div>
+			</div>
+		</section>
+		<section class="section" id="movies">
+			<div class="container">
+				<div class="section__inner">
+			    <a href="#" class="show-more">Trending Movies</a>
+			    <div class="content">
+				    <a class="item">
+					    <img src="images/movies/6.jpg" alt="">
+				    </a>
+				    <a class="item">
+					    <img src="images/movies/5.jpg" alt="">
+				    </a>
+				    <a class="item">
+					    <img src="images/movies/4.jpg" alt="">
+				    </a>
+				    <a class="item">
+					    <img src="images/movies/3.jpg" alt="">
+				    </a>
+				    <a class="item">
+					    <img src="images/movies/2.jpg" alt="">
+				    </a>
+				    <a class="item">
+					    <img src="images/movies/1.jpg" alt="">
+				    </a>
+				    <a class="item">
+					    <img src="images/movies/6.jpg" alt="">
+				    </a>
+				    <a class="item">
+					    <img src="images/movies/5.jpg" alt="">
+				    </a>
+				    <a class="item">
+					    <img src="images/movies/4.jpg" alt="">
+				    </a>
+				    <a class="item">
+					    <img src="images/movies/3.jpg" alt="">
+				    </a>
+				    <a class="item">
+					    <img src="images/movies/2.jpg" alt="">
+				    </a>
+				    <a class="item">
+					    <img src="images/movies/1.jpg" alt="">
+				    </a>
+			    </div>
+			    <div class="controlls">
+			    	<a class="btn left hidden"><span class="i-arrow"></span></a>
+			    	<a class="btn right"><span class="i-arrow"></span></a>
+			    </div>
+			   	 <a href="" class="btn usebtn grd">See more</a>
+			    </div>
+			</div>
+		</section>
+	</div>
+
+	<section class="section" id="genres">
+		<div class="container">
+			<a href="" class="show-more">Popular genres</a>
+
+			<div class="content">
+				<a href="" class="item">
+					<img src="icons/genres/hearts.svg" alt="">
+					<div class="name">Romance</div>
+				</a>
+				<a href="" class="item">
+					<img src="icons/genres/drama.svg" alt="">
+					<div class="name">Drama</div>
+				</a>
+				<a href="" class="item">
+					<img src="icons/genres/documentary.svg" alt="">
+					<div class="name">Historical</div>
+				</a>
+				<a href="" class="item">
+					<img src="icons/genres/killer.svg" alt="">
+					<div class="name">Action</div>
+				</a>
+				<a href="" class="item">
+					<img src="icons/genres/rocket.svg" alt="">
+					<div class="name">Sci-fi</div>
+				</a>
+				<a href="" class="item">
+					<img src="icons/genres/ghost.svg" alt="">
+					<div class="name">Horror</div>
+				</a>
+				<a href="" class="item">
+					<img src="icons/genres/smile.svg" alt="">
+					<div class="name">Comedy</div>
+				</a>
+				<a href="" class="item">
+					<img src="icons/genres/castle.svg" alt="">
+					<div class="name">Documentary</div>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="section" id="channels">
+		<div class="container">
+			<div class="section__inner">
+			<a href="" class="show-more">Popular channels</a>
+
+			<div class="content">
+				<a href="" class="item"></a>
+				<a href="" class="item"></a>
+				<a href="" class="item"></a>
+				<a href="" class="item"></a>
+				<a href="" class="item"></a>
+				<a href="" class="item"></a>
+				<a href="" class="item"></a>
+				<a href="" class="item"></a>
+				<a href="" class="item"></a>
+				<a href="" class="item"></a>
+				<a href="" class="item"></a>
+				<a href="" class="item"></a>
+				<a href="" class="item"></a>
+				<a href="" class="item"></a>
+				<a href="" class="item"></a>
+				<a href="" class="item"></a>
+			</div>
+
+			 <div class="controlls">
+			    	<a class="btn left hidden"><span class="i-arrow"></span></a>
+			    	<a class="btn right"><span class="i-arrow"></span></a>
+			    </div>
+		</div>
+		</div>
+	</section>
+
+	<section class="section" id="actors">
+		<div class="container">
+			<div class="section__inner">
+			<a href="" class="show-more">Popular Actors & Directors</a>
+
+			<div class="content">
+				<a href="" class="item">
+					<img src="images/actors/6.jpg" alt="">
+					<div class="name">Samantha Bowen</div>
+				</a>
+				<a href="" class="item">
+					<img src="images/actors/5.jpg" alt="">
+					<div class="name">Rhys Birch</div>
+				</a>
+				<a href="" class="item">
+					<img src="images/actors/4.jpg" alt="">
+					<div class="name">James Holloway</div>
+				</a>
+				<a href="" class="item">
+					<img src="images/actors/3.jpg" alt="">
+					<div class="name">Joshua Walton</div>
+				</a>
+				<a href="" class="item">
+					<img src="images/actors/2.jpg" alt="">
+					<div class="name">Patrick Elliott</div>
+				</a>
+				<a href="" class="item">
+					<img src="images/actors/1.jpg" alt="">
+					<div class="name">Morgan O'Neill</div>
+				</a>
+				<a href="" class="item">
+					<img src="images/actors/6.jpg" alt="">
+					<div class="name">Samantha Bowen</div>
+				</a>
+				<a href="" class="item">
+					<img src="images/actors/5.jpg" alt="">
+					<div class="name">Rhys Birch</div>
+				</a>
+				<a href="" class="item">
+					<img src="images/actors/4.jpg" alt="">
+					<div class="name">James Holloway</div>
+				</a>
+				<a href="" class="item">
+					<img src="images/actors/3.jpg" alt="">
+					<div class="name">Joshua Walton</div>
+				</a>
+				<a href="" class="item">
+					<img src="images/actors/2.jpg" alt="">
+					<div class="name">Patrick Elliott</div>
+				</a>
+				<a href="" class="item">
+					<img src="images/actors/1.jpg" alt="">
+					<div class="name">Morgan O'Neill</div>
+				</a>
+			</div>
+
+			 <div class="controlls">
+		    	<a class="btn left hidden"><span class="i-arrow"></span></a>
+		    	<a class="btn right"><span class="i-arrow"></span></a>
+		    </div>
+		</div>
+		</div>
+	</section>
+
+	<section class="section" id="coming-soon">
+		<div class="container">
+			<div class="content">
+				<a href="" class="item">
+					<img src="images/coming-soon/1.jpg" alt="">
+				</a>
+				<a href="" class="item">
+					<img src="images/coming-soon/2.gif" alt="">
+					<div class="name">Coming Soon...</div>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="section" id="register__block">
+		<div class="container">
+			<div class="content">
+				<div class="name">Are You New Here ? Don’t wait, Register Now. </div>
+				<a href="" class="btn usebtn grd" id="register--btn">Register Now</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="section" id="footer">
+		<div class="container">
+			<div class="content">
+				<div class="tab logotype">
+					<a href="" class="logo"><img src="icons/logo.svg" alt=""></a>
+					<div class="social">
+						<a href="https://vk.com/verb1an" target="_blank"><span class="i-vk"></span></a>
+						<a href="https://www.instagram.com/kineyprod/" target="_blank"><span class="i-inst"></span></a>
+						<a href="https://t.me/verb1an" target="_blank"><span class="i-telegram"></span></a>
+					</div>
+				</div>
+				<div class="tab">
+					<nav class="footer__nav">
+						<a href="">Voice over and Subtitle</a>
+						<a href="">Media Center</a>
+						<a href="">Privacy</a>
+						<a href="">Contact us</a>
+					</nav>
+				</div>
+				<div class="tab">
+					<nav class="footer__nav">
+						<a href="">Voice Description</a>
+						<a href="">Investor Relations</a>
+						<a href="">Legal Provisions</a>
+					</nav>
+				</div>
+				<div class="tab">
+					<nav class="footer__nav">
+						<a href="">Help Center</a>
+						<a href="">Job Opportunities</a>
+						<a href="">Cookies Preferences</a>
+					</nav>
+				</div>
+				<div class="tab">
+					<nav class="footer__nav">
+						<a href="">Gift Cards</a>
+						<a href="">Terms of Use</a>
+						<a href="">Corporate Informations</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</section>
+	</main>
+</body>
+</html>

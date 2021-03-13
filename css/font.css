@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Mulish:wght@400;700;800&display=swap');
+
+@font-face {
+  font-family: 'mbox';
+  src:  url('../icons/fonts/mbox.eot?aw9qxd');
+  src:  url('../icons/fonts/mbox.eot?aw9qxd#iefix') format('embedded-opentype'),
+    url('../icons/fonts/mbox.ttf?aw9qxd') format('truetype'),
+    url('../icons/fonts/mbox.woff?aw9qxd') format('woff'),
+    url('../icons/fonts/mbox.svg?aw9qxd#mbox') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="i-"], [class*=" i-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'mbox' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.i-vk:before {
+  content: "\e900";
+}
+.i-telegram:before {
+  content: "\e901";
+}
+.i-notif:before {
+  content: "\e902";
+}
+.i-search:before {
+  content: "\e903";
+}
+.i-arrow:before {
+  content: "\e904";
+}
+.i-inst:before {
+  content: "\e905";
+}
+.i-twitter:before {
+  content: "\e906";
+}
+.i-user:before {
+  content: "\e907";
+}
+.i-watch:before {
+  content: "\e908";
+}
+.i-rating:before {
+  content: "\e909";
+}
+
